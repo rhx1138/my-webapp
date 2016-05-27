@@ -1,0 +1,26 @@
+{
+  "name": "my-webapp",
+  "version": "1.0.0",
+  "description": "Website for my new app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhx1138/my-webapp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhx1138/my-webapp/issues"
+  },
+  "homepage": "https://github.com/rhx1138/my-webapp#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.8.3",
+    "express": "^4.13.4",
+    "express-stormpath": "^3.1.2",
+    "jade": "^1.11.0"
+  }
+}
